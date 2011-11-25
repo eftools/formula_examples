@@ -30,7 +30,7 @@ package
 			monomials.y = 55;
 			
 			// form toolbar
-			monomials.toolbar.addCategoryByParams(new FractionCategoryButton(), [Power, Brackets]);
+			monomials.toolbar.addCategoryByParams(new CommonCategoryButton(), [Power, Brackets]);
 			monomials.toolbar.addCategoryByParams(new VariableCategoryButton(), [Variable.getToolbarItem("a", [-3, 1, 3]), Variable.getToolbarItem("b", [-3, 1, 3]), Variable.getToolbarItem("x", [-3, 1, 3]), Variable.getToolbarItem("y", [-3, 1, 3])]);
 
 			// setup answer checking
